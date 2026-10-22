@@ -2,6 +2,8 @@
 
 A real-time hand gesture recognition system built with **Python, OpenCV, MediaPipe and scikit-learn**. It detects hand landmarks from a webcam, converts them into a small set of geometric features, and classifies the gesture with a Random Forest model.
 
+   ![Live demo](demo_blur.gif)
+
 This was my final seminar project for MSc IT (Data Analysis).
 
 ## Gestures recognised
