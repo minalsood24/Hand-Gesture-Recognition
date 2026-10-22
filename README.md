@@ -25,6 +25,20 @@ Open Palm, Fist, Thumbs Up, Peace, OK Sign, Pointing (works with one or both han
 
 ## Project structure
 
+## Analysis and visualisations
+
+The EDA pipeline (`gesture_data_analysis.py`) produces these charts on a demonstration dataset:
+
+| Class distribution | Feature correlation |
+|---|---|
+| ![Class distribution](01_class_distribution.png) | ![Correlation heatmap](02_correlation_heatmap.png) |
+
+| PCA projection | Confusion matrix |
+|---|---|
+| ![PCA projection](03_pca_projection.png) | ![Confusion matrix](04_confusion_matrix.png) |
+
+![Feature importance](05_feature_importance.png)
+
 | File | Purpose |
 |---|---|
 | `camera_test.py` | Checks that the webcam and OpenCV work |
